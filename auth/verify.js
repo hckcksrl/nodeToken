@@ -4,7 +4,6 @@ import config from "../config";
 const Route = express.Route()
 
 
-
 Route.post('/verify', (req, res , next) => {
     
     var token = req.headers.authorization.split(' ')[1]
