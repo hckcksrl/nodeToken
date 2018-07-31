@@ -30,4 +30,5 @@ sequelize.sync({
     force : false
 })
 
+
 export default User
