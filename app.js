@@ -4,7 +4,6 @@ import Auth from "./auth/authenticate";
 import Verify from "./auth/verify" 
 var app = express()
 
-
 app.use(bodyParser.urlencoded({extended:false}))
 app.use(bodyParser.json())
 
